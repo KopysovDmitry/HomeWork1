@@ -44,6 +44,7 @@ public class Main {
             total1 = total1 + salary1;
 
             System.out.println("Месяц " + i1 +" сумма накоплений равна "+ total1 + "рублей");}
+        //lesson 1 is compite//
 
 
 
