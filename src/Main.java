@@ -3,22 +3,22 @@ public class Main {
         //lesson 1//
         // home work 1, task1 1//
         for (int i = 0; i <= 10; i++)
-            System.out.println("1 iteration " +i);
+            System.out.println("1 iteration " + i);
         System.out.println(" ");
         System.out.println("ДЗ 1, Задание 2");
         System.out.println("  ");
 
         // home work 1, task 2//
 
-        for(int i= 10; i > 0; i--)
-            System.out.println("2 iteration " +i);
+        for (int i = 10; i > 0; i--)
+            System.out.println("2 iteration " + i);
         System.out.println(" ");
         System.out.println("ДЗ 1, Задание 3");
         System.out.println("  ");
 
         // home work 1, task 3//
 
-        for (int i = 0; i < 18; i=i+2)
+        for (int i = 0; i < 18; i = i + 2)
             System.out.println("3 iteration" + i);
         System.out.println(" ");
         System.out.println("ДЗ 1, Задание 4");
@@ -44,14 +44,16 @@ public class Main {
 
         for (int i = 7; i < 99; i = i + 7) {
             System.out.println("6 iteration " + i);
-            System.out.println(" ");System.out.println("ДЗ 2, Задание 3");
+            System.out.println(" ");
+            System.out.println("ДЗ 2, Задание 3");
             System.out.println("  ");
         }
         // home work 2, task 3//
 
         for (int i = 1; i < 513; i = i * 2) {
             System.out.println("7 iteration " + i);
-            System.out.println(" ");System.out.println("ДЗ 3, Задание 1");
+            System.out.println(" ");
+            System.out.println("ДЗ 3, Задание 1");
             System.out.println("  ");
         }
         // home work 3, task 1//
@@ -64,7 +66,8 @@ public class Main {
 
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + "рублей");
         }
-        System.out.println(" ");System.out.println("ДЗ 3, Задание 2");
+        System.out.println(" ");
+        System.out.println("ДЗ 3, Задание 2");
         System.out.println("  ");
 
         // home work 3, task 2//
@@ -97,7 +100,8 @@ public class Main {
 
             System.out.println("Месяц " + i_2 + " сумма накоплений равна " + total_2 + " рублей");
         }
-        System.out.println(" ");System.out.println("ДЗ 1, Задание 2");
+        System.out.println(" ");
+        System.out.println("ДЗ 1, Задание 2");
         System.out.println("  ");
 
         /// home work 1, task 2//
@@ -178,7 +182,7 @@ public class Main {
         while (timePeriod < 109) {
             timePeriod = timePeriod + 1;
             check_2 = check_2 + check_2 * 7 / 100;
-            if (timePeriod <109){
+            if (timePeriod < 109) {
                 timePeriod = timePeriod + 1;
                 totalCheck_2 = check_2 + check_2 * 7 / 100;
             }
@@ -194,11 +198,11 @@ public class Main {
 
         int day = 1;
         int friday = 5;
-        while (day <32) {
+        while (day < 32) {
             day = day + 1;
-            if (friday <= day){
+            if (friday <= day) {
                 System.out.println("Сегодня пятница, " + day + " -е число. Необходимо подготовить отчет.");
-                friday = friday +7;
+                friday = friday + 7;
             }
         }
         System.out.println(" ");
@@ -207,19 +211,36 @@ public class Main {
 
         // home work 3, task 1//
 
-        int cometTraectory = 79;
-        int stertPeriod = -200;
-        int finishPeriod = 100;
-        do-while ()
+        int cometYear = 0;
+        do {
+            if (cometYear > 1822) {
+                System.out.println(cometYear);
+            }
+            cometYear = cometYear + 79;
+        } while (cometYear < 2123);
 
+        System.out.println("  ");
+        System.out.println("ДЗ 3, Задание 2");
+        System.out.println("  ");
 
+        //home work 3, task 2//
 
+        int number_2 = 0;
+        for (int number_1 = 1; number_1 <= 10; number_1 = number_1 + 1) {
+            number_2 = number_1 * 2;
+            System.out.println("2 * " + number_1 + " = " + number_2);
+        }
+        System.out.println("  ");
+        System.out.println("ДЗ 3, Задание 2.1");
+        System.out.println("  ");
 
-
-
-
-
-
-
+        //home work 3, task 2.1//
+        int num_1 = 1;
+        int num_2 = 2;
+        do {
+            System.out.println("2 * " + num_1 + " = " + num_2);
+            num_1 = num_1 + 1;
+            num_2 = num_1 * 2;
+        } while (num_1 <= 10);
     }
 }
