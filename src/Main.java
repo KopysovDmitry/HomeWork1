@@ -124,10 +124,10 @@ public class Main {
         int birthRate = 17;
         int deathRate = 8;
         int year = 1;
-        int rate = y + birthRate - deathRate;
+        int rate = y + ((y/1000)*birthRate) - ((y/1000)*deathRate);
         while (year < 11) {
             System.out.println("Год " + year + ", численность населения составляет " + rate);
-            rate = rate + birthRate - deathRate;
+            rate = rate + ((rate/1000)*birthRate) - ((rate/1000)*deathRate);
             year = year + 1;
         }
         System.out.println(" ");
